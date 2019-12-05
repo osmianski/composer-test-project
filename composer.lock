@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5799fefce39b3ca2a73b8c7ce0c6a8c6",
+    "content-hash": "96191c7dee3d880430dc308d0fce94ea",
     "packages": [
         {
             "name": "osmianski/composer-test-docs",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osmianski/composer-test-docs.git",
-                "reference": "06daf541321e94617e4c821a6d88fa5b9188efc9"
+                "reference": "7bb72bea8de152345fee8c3644b2341133a98b52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/osmianski/composer-test-docs/zipball/06daf541321e94617e4c821a6d88fa5b9188efc9",
-                "reference": "06daf541321e94617e4c821a6d88fa5b9188efc9",
+                "url": "https://api.github.com/repos/osmianski/composer-test-docs/zipball/7bb72bea8de152345fee8c3644b2341133a98b52",
+                "reference": "7bb72bea8de152345fee8c3644b2341133a98b52",
                 "shasum": ""
             },
             "require": {
-                "osmianski/composer-test-framework": "^1.0"
+                "osmianski/composer-test-framework": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -33,11 +33,11 @@
             "license": [
                 "GPL-3.0-only"
             ],
-            "time": "2019-12-05T16:41:33+00:00"
+            "time": "2019-12-05T17:07:58+00:00"
         },
         {
             "name": "osmianski/composer-test-framework",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osmianski/composer-test-framework.git",
@@ -65,7 +65,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "osmianski/composer-test-framework": 20,
+        "osmianski/composer-test-docs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

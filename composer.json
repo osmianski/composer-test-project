@@ -8,6 +8,7 @@
         }
     },
     "require": {
-        "osmianski/composer-test-docs": "^1.0"
+        "osmianski/composer-test-framework": "dev-master@dev",
+        "osmianski/composer-test-docs": "dev-master@dev"
     }
 }
