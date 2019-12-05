@@ -4,18 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47aac60b8dc0a71a5c6a35f51fca995b",
+    "content-hash": "96191c7dee3d880430dc308d0fce94ea",
     "packages": [
         {
-            "name": "test/docs",
-            "version": "v1.0.0",
+            "name": "osmianski/composer-test-docs",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "d:\\_projects\\composertest\\repos\\docs.git",
-                "reference": "9b751febd7cb09327daa41f434288d56a24f58b4"
+                "url": "https://github.com/osmianski/composer-test-docs.git",
+                "reference": "56a2534f207a25b3316277bc0bb6d4adc8e21b70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/composer-test-docs/zipball/56a2534f207a25b3316277bc0bb6d4adc8e21b70",
+                "reference": "56a2534f207a25b3316277bc0bb6d4adc8e21b70",
+                "shasum": ""
             },
             "require": {
-                "test/framework": "^1.0"
+                "osmianski/composer-test-framework": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -23,15 +29,25 @@
                     "Test\\Docs\\": "src/"
                 }
             },
-            "time": "2019-12-04T14:17:17+00:00"
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "time": "2019-12-05T12:15:08+00:00"
         },
         {
-            "name": "test/framework",
-            "version": "v1.0.0",
+            "name": "osmianski/composer-test-framework",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "d:\\_projects\\composertest\\repos\\framework.git",
-                "reference": "bd010f671830f63b0d4cd9acd7113b40fa2f705c"
+                "url": "https://github.com/osmianski/composer-test-framework.git",
+                "reference": "b109f9e8eb64bd0965a0db1413f7b4c9015941e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/composer-test-framework/zipball/b109f9e8eb64bd0965a0db1413f7b4c9015941e3",
+                "reference": "b109f9e8eb64bd0965a0db1413f7b4c9015941e3",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -39,13 +55,20 @@
                     "Test\\Framework\\": "src/"
                 }
             },
-            "time": "2019-12-04T13:55:15+00:00"
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "time": "2019-12-05T12:15:07+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "osmianski/composer-test-framework": 20,
+        "osmianski/composer-test-docs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
