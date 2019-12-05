@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "47aac60b8dc0a71a5c6a35f51fca995b",
+    "packages": [
+        {
+            "name": "test/docs",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "d:\\_projects\\composertest\\repos\\docs.git",
+                "reference": "9b751febd7cb09327daa41f434288d56a24f58b4"
+            },
+            "require": {
+                "test/framework": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Test\\Docs\\": "src/"
+                }
+            },
+            "time": "2019-12-04T14:17:17+00:00"
+        },
+        {
+            "name": "test/framework",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "d:\\_projects\\composertest\\repos\\framework.git",
+                "reference": "bd010f671830f63b0d4cd9acd7113b40fa2f705c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Test\\Framework\\": "src/"
+                }
+            },
+            "time": "2019-12-04T13:55:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

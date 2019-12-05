@@ -1,0 +1,13 @@
+{
+    "name": "osmianski/composer-test-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/"
+        }
+    },
+    "require": {
+        "osmianski/composer-test-framework": "dev-master@dev",
+        "osmianski/composer-test-docs": "dev-master@dev"
+    }
+}
