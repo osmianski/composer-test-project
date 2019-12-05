@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5799fefce39b3ca2a73b8c7ce0c6a8c6",
+    "content-hash": "b2b02f7d3d7a2603d2af2f06732aae51",
     "packages": [
         {
             "name": "osmianski/composer-test-docs",
-            "version": "v1.0.0",
+            "version": "v1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osmianski/composer-test-docs.git",
@@ -37,7 +37,7 @@
         },
         {
             "name": "osmianski/composer-test-framework",
-            "version": "v1.0.0",
+            "version": "v1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osmianski/composer-test-framework.git",
@@ -65,7 +65,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "osmianski/composer-test-framework": 20,
+        "osmianski/composer-test-docs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
