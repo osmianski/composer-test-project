@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/osmianski/composer-test-docs.git",
-                "reference": "06daf541321e94617e4c821a6d88fa5b9188efc9"
+                "reference": "bfb0f993a32dd85219a66365e3fb6aa963d4fbfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/osmianski/composer-test-docs/zipball/06daf541321e94617e4c821a6d88fa5b9188efc9",
-                "reference": "06daf541321e94617e4c821a6d88fa5b9188efc9",
+                "url": "https://api.github.com/repos/osmianski/composer-test-docs/zipball/bfb0f993a32dd85219a66365e3fb6aa963d4fbfa",
+                "reference": "bfb0f993a32dd85219a66365e3fb6aa963d4fbfa",
                 "shasum": ""
             },
             "require": {
-                "osmianski/composer-test-framework": "^1.0"
+                "osmianski/composer-test-framework": "v1.x-dev"
             },
             "type": "library",
             "autoload": {
@@ -33,7 +33,7 @@
             "license": [
                 "GPL-3.0-only"
             ],
-            "time": "2019-12-05T16:41:33+00:00"
+            "time": "2019-12-05T17:18:32+00:00"
         },
         {
             "name": "osmianski/composer-test-framework",
