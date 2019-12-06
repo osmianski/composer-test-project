@@ -1,6 +1,7 @@
 {
     "name": "osmianski/composer-test-project",
     "type": "project",
+    "description": "description",
     "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
